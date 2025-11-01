@@ -1,0 +1,1083 @@
+.tela-estoque-ver {
+  position: relative;
+  width: 596px;
+  height: 1292px;
+  background-color: var(--tokens-base-background-window-prim-ria);
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.tela-estoque-ver .rectangle {
+  position: absolute;
+  top: 159px;
+  left: 26px;
+  width: 543px;
+  height: 985px;
+  background-color: var(--tokens-base-background-prim-ria);
+  border-radius: 25px;
+}
+
+.tela-estoque-ver .boto-add-lista {
+  position: absolute;
+  top: 915px;
+  left: 278px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  background-color: var(--tokens-home-texto-titulos-windows-home);
+  border-radius: 20.03px;
+}
+
+.tela-estoque-ver .lucide-plus {
+  margin-top: 5px;
+  width: 30px;
+  height: 30px;
+  margin-left: 5.1px;
+  position: relative;
+}
+
+.tela-estoque-ver .vector {
+  position: absolute;
+  width: 58.33%;
+  height: 58.33%;
+  top: 17.50%;
+  left: 17.50%;
+}
+
+.tela-estoque-ver .GRADE {
+  position: absolute;
+  top: 260px;
+  left: 49px;
+  width: 495px;
+  height: 780px;
+}
+
+.tela-estoque-ver .produtos {
+  position: absolute;
+  width: 475px;
+  height: 535px;
+  top: 273px;
+  left: 59px;
+}
+
+.tela-estoque-ver .produto {
+  top: 450px;
+  width: 479px;
+  height: 85px;
+  position: absolute;
+  left: 0;
+}
+
+.tela-estoque-ver .text-wrapper {
+  position: absolute;
+  top: 30px;
+  left: 117px;
+  height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 700;
+  color: var(--tokens-windows-icons-texto-window-home-estoque-listas);
+  font-size: 15.8px;
+  letter-spacing: 0.63px;
+  line-height: normal;
+}
+
+.tela-estoque-ver .padaria {
+  position: absolute;
+  top: 15px;
+  left: 41px;
+  width: 49px;
+  height: 49px;
+  display: flex;
+  background-color: var(--tokens-home-background-icons-home);
+  border-radius: 24.5px;
+}
+
+.tela-estoque-ver .lucide-croissant {
+  margin-top: 11.1px;
+  width: 28.21px;
+  height: 28.21px;
+  margin-left: 9.7px;
+  position: relative;
+}
+
+.tela-estoque-ver .img {
+  position: absolute;
+  width: 81.19%;
+  height: 81.19%;
+  top: 6.93%;
+  left: 6.93%;
+}
+
+.tela-estoque-ver .contador {
+  position: absolute;
+  top: 1px;
+  left: 337px;
+  width: 34px;
+  height: 37px;
+}
+
+.tela-estoque-ver .div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 32px;
+  height: 37px;
+  background-color: var(--tokens-home-background-icons-home);
+  border-radius: 5.26px;
+}
+
+.tela-estoque-ver .text-wrapper-2 {
+  position: absolute;
+  top: 9px;
+  left: 11px;
+  height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 600;
+  color: var(--tokens-home-texto-titulos-windows-home);
+  font-size: 15.8px;
+  letter-spacing: 0.63px;
+  line-height: normal;
+}
+
+.tela-estoque-ver .botes {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.tela-estoque-ver .boto-edtar {
+  width: 20px;
+  height: 23.75px;
+  position: relative;
+  gap: 12.5px;
+  padding: 3.75px;
+  background-color: var(--tokens-home-icons-window-home-estoque);
+  border-radius: 3.75px;
+  display: flex;
+  align-items: center;
+}
+
+.tela-estoque-ver .vector-2 {
+  position: relative;
+  width: 14.06px;
+  height: 17.81px;
+  margin-top: -0.78px;
+  margin-bottom: -0.78px;
+  margin-left: -0.78px;
+  margin-right: -0.78px;
+}
+
+.tela-estoque-ver .boto-limpar-excluir {
+  width: 20px;
+  height: 23.75px;
+  position: relative;
+  gap: 12.5px;
+  padding: 5px 3.75px;
+  background-color: var(--tokens-windows-icons-home-estoque-listas);
+  border-radius: 3.75px;
+  display: flex;
+  align-items: center;
+}
+
+.tela-estoque-ver .vector-3 {
+  position: relative;
+  width: 13.75px;
+  height: 15.1px;
+  margin-top: -0.68px;
+  margin-bottom: -0.68px;
+  margin-left: -0.78px;
+  margin-right: -0.47px;
+}
+
+.tela-estoque-ver .no-val {
+  position: absolute;
+  top: 57px;
+  left: 447px;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  background-color: var(--tokens-windows-icons-home-estoque-listas);
+  border-radius: 14.02px;
+}
+
+.tela-estoque-ver .lucide-x {
+  margin-top: 3.2px;
+  width: 22.78px;
+  height: 22.78px;
+  margin-left: 2.5px;
+  position: relative;
+}
+
+.tela-estoque-ver .vector-4 {
+  position: absolute;
+  width: 50.00%;
+  height: 50.00%;
+  top: 17.31%;
+  left: 17.31%;
+}
+
+.tela-estoque-ver .text-wrapper-3 {
+  position: absolute;
+  top: 60px;
+  left: 338px;
+  height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 600;
+  color: var(--tokens-windows-icons-texto-window-home-estoque-listas);
+  font-size: 15.8px;
+  letter-spacing: 0.63px;
+  line-height: normal;
+}
+
+.tela-estoque-ver .prdouto {
+  position: absolute;
+  top: 338px;
+  left: 0;
+  width: 479px;
+  height: 80px;
+}
+
+.tela-estoque-ver .val {
+  position: absolute;
+  top: 51px;
+  left: 447px;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  background-color: var(--tokens-home-background-icons-home);
+  border-radius: 14.02px;
+}
+
+.tela-estoque-ver .lucide-check {
+  margin-top: 4.4px;
+  width: 19.28px;
+  height: 21.03px;
+  margin-left: 3.9px;
+  position: relative;
+}
+
+.tela-estoque-ver .vector-5 {
+  position: absolute;
+  width: 66.67%;
+  height: 45.83%;
+  top: 16.67%;
+  left: 7.58%;
+}
+
+.tela-estoque-ver .text-wrapper-4 {
+  top: 54px;
+  left: 338px;
+  position: absolute;
+  height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 600;
+  color: var(--tokens-windows-icons-texto-window-home-estoque-listas);
+  font-size: 15.8px;
+  letter-spacing: 0.63px;
+  line-height: normal;
+}
+
+.tela-estoque-ver .contador-2 {
+  position: absolute;
+  top: 2px;
+  left: 337px;
+  width: 34px;
+  height: 37px;
+}
+
+.tela-estoque-ver .text-wrapper-5 {
+  top: 9px;
+  left: 6px;
+  height: 21px;
+  font-size: 15.8px;
+  letter-spacing: 0.63px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 600;
+  color: var(--tokens-home-texto-titulos-windows-home);
+  line-height: normal;
+}
+
+.tela-estoque-ver .hortifrti {
+  position: absolute;
+  top: 16px;
+  left: 41px;
+  width: 49px;
+  height: 49px;
+}
+
+.tela-estoque-ver .produto-2 {
+  top: 226px;
+  width: 371px;
+  height: 80px;
+  display: flex;
+  position: absolute;
+  left: 0;
+}
+
+.tela-estoque-ver .botes-2 {
+  margin-top: 0.5px;
+  width: 20px;
+  height: 79.5px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.tela-estoque-ver .no-perecivis {
+  margin-top: 15.7px;
+  width: 48.16px;
+  height: 48.16px;
+  margin-left: 21.3px;
+  display: flex;
+  background-color: var(--tokens-home-background-icons-home);
+  border-radius: 24.08px;
+}
+
+.tela-estoque-ver .lucide-bean {
+  margin-top: 10.9px;
+  width: 27px;
+  height: 27px;
+  margin-left: 10.2px;
+  position: relative;
+}
+
+.tela-estoque-ver .vector-6 {
+  position: absolute;
+  width: 83.35%;
+  height: 83.35%;
+  top: 5.61%;
+  left: 5.61%;
+}
+
+.tela-estoque-ver .text-wrapper-6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 29.8px;
+  width: 46px;
+  height: 21px;
+  margin-left: 27.2px;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 700;
+  color: var(--tokens-windows-icons-texto-window-home-estoque-listas);
+  font-size: 15.8px;
+  letter-spacing: 0.63px;
+  line-height: normal;
+}
+
+.tela-estoque-ver .contador-3 {
+  width: 33.55px;
+  height: 36.8px;
+  position: relative;
+  margin-left: 174.8px;
+}
+
+.tela-estoque-ver .produto-3 {
+  top: 113px;
+  width: 481px;
+  height: 196px;
+  position: absolute;
+  left: 0;
+}
+
+.tela-estoque-ver .lucide-x-wrapper {
+  position: absolute;
+  top: 53px;
+  left: 447px;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  background-color: var(--tokens-windows-icons-home-estoque-listas);
+  border-radius: 14.02px;
+}
+
+.tela-estoque-ver .text-wrapper-7 {
+  top: 56px;
+  left: 338px;
+  position: absolute;
+  height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 600;
+  color: var(--tokens-windows-icons-texto-window-home-estoque-listas);
+  font-size: 15.8px;
+  letter-spacing: 0.63px;
+  line-height: normal;
+}
+
+.tela-estoque-ver .text-wrapper-8 {
+  position: absolute;
+  top: 31px;
+  left: 117px;
+  height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 700;
+  color: var(--tokens-windows-icons-texto-window-home-estoque-listas);
+  font-size: 15.8px;
+  letter-spacing: 0.63px;
+  line-height: normal;
+}
+
+.tela-estoque-ver .aougue {
+  position: absolute;
+  top: 14px;
+  left: 41px;
+  width: 49px;
+  height: 49px;
+  display: flex;
+  background-color: var(--tokens-home-background-icons-home);
+  border-radius: 24.54px;
+}
+
+.tela-estoque-ver .lucide-beef {
+  margin-top: 9.7px;
+  width: 29.74px;
+  height: 29.74px;
+  margin-left: 10.4px;
+  position: relative;
+}
+
+.tela-estoque-ver .vector-7 {
+  position: absolute;
+  width: 79.19%;
+  height: 83.32%;
+  top: 5.85%;
+  left: 5.84%;
+}
+
+.tela-estoque-ver .contador-4 {
+  position: absolute;
+  top: 3px;
+  left: 337px;
+  width: 65px;
+  height: 37px;
+}
+
+.tela-estoque-ver .text-wrapper-9 {
+  position: absolute;
+  top: 9px;
+  left: 41px;
+  height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 600;
+  color: var(--tokens-windows-icons-texto-window-home-estoque-listas);
+  font-size: 15.8px;
+  letter-spacing: 0.63px;
+  line-height: normal;
+}
+
+.tela-estoque-ver .lucide-check-wrapper {
+  top: 168px;
+  left: 447px;
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  background-color: var(--tokens-home-background-icons-home);
+  border-radius: 14.02px;
+}
+
+.tela-estoque-ver .text-wrapper-10 {
+  top: 171px;
+  left: 338px;
+  position: absolute;
+  height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 600;
+  color: var(--tokens-windows-icons-texto-window-home-estoque-listas);
+  font-size: 15.8px;
+  letter-spacing: 0.63px;
+  line-height: normal;
+}
+
+.tela-estoque-ver .prdouto-2 {
+  position: absolute;
+  top: 0;
+  left: 1px;
+  width: 477px;
+  height: 84px;
+}
+
+.tela-estoque-ver .div-wrapper {
+  top: 56px;
+  left: 445px;
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  background-color: var(--tokens-home-background-icons-home);
+  border-radius: 14.02px;
+}
+
+.tela-estoque-ver .text-wrapper-11 {
+  top: 60px;
+  left: 336px;
+  position: absolute;
+  height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 600;
+  color: var(--tokens-windows-icons-texto-window-home-estoque-listas);
+  font-size: 15.8px;
+  letter-spacing: 0.63px;
+  line-height: normal;
+}
+
+.tela-estoque-ver .contador-5 {
+  position: absolute;
+  top: 4px;
+  left: 336px;
+  width: 34px;
+  height: 37px;
+}
+
+.tela-estoque-ver .text-wrapper-12 {
+  position: absolute;
+  top: 27px;
+  left: 115px;
+  height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 700;
+  color: var(--tokens-windows-icons-texto-window-home-estoque-listas);
+  font-size: 15.8px;
+  letter-spacing: 0.63px;
+  line-height: normal;
+}
+
+.tela-estoque-ver .hortifrti-2 {
+  position: absolute;
+  top: 13px;
+  left: 40px;
+  width: 49px;
+  height: 49px;
+}
+
+.tela-estoque-ver .botes-3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 19px;
+  height: 81px;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.tela-estoque-ver .vector-wrapper {
+  width: 19px;
+  height: 22.56px;
+  position: relative;
+  gap: 11.88px;
+  padding: 3.56px;
+  border-radius: 3.56px;
+  display: flex;
+  align-items: center;
+  background-color: var(--tokens-home-icons-window-home-estoque);
+}
+
+.tela-estoque-ver .vector-8 {
+  position: relative;
+  width: 13.36px;
+  height: 16.92px;
+  margin-top: -0.74px;
+  margin-bottom: -0.74px;
+  margin-left: -0.74px;
+  margin-right: -0.74px;
+}
+
+.tela-estoque-ver .img-wrapper {
+  width: 19px;
+  height: 22.56px;
+  position: relative;
+  gap: 11.88px;
+  padding: 4.75px 3.56px;
+  border-radius: 3.56px;
+  display: flex;
+  align-items: center;
+  background-color: var(--tokens-windows-icons-home-estoque-listas);
+}
+
+.tela-estoque-ver .vector-9 {
+  position: relative;
+  width: 13.06px;
+  height: 14.35px;
+  margin-top: -0.64px;
+  margin-bottom: -0.64px;
+  margin-left: -0.74px;
+  margin-right: -0.45px;
+}
+
+.tela-estoque-ver .window-titulo {
+  position: absolute;
+  top: 151px;
+  left: 26px;
+  width: 547px;
+  height: 89px;
+}
+
+.tela-estoque-ver .window-estoque-min {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 543px;
+  height: 89px;
+  background-color: var(--tokens-home-texto-titulos-windows-home);
+  border-radius: 15px;
+}
+
+.tela-estoque-ver .text-wrapper-13 {
+  position: absolute;
+  top: 53px;
+  left: 99px;
+  width: 257px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 400;
+  color: var(--tokens-windows-icons-texto-window-home-estoque-listas);
+  font-size: 22px;
+  letter-spacing: 0.88px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.tela-estoque-ver .text-wrapper-14 {
+  position: absolute;
+  top: 5px;
+  left: 97px;
+  width: 203px;
+  height: 51px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 700;
+  color: var(--tokens-windows-icons-texto-window-home-estoque-listas);
+  font-size: 47.8px;
+  letter-spacing: 1.91px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.tela-estoque-ver .boto-voltar {
+  width: 49px;
+  height: 44px;
+  gap: 29.03px;
+  padding: 5.81px;
+  position: absolute;
+  top: 18px;
+  left: 32px;
+  transform: rotate(-90.00deg);
+  display: flex;
+  align-items: center;
+}
+
+.tela-estoque-ver .vector-10 {
+  position: relative;
+  width: 34px;
+  height: 34px;
+  margin-top: -0.81px;
+  margin-bottom: -0.81px;
+  margin-left: -1.00px;
+  transform: rotate(90.00deg);
+}
+
+.tela-estoque-ver .botes-4 {
+  position: absolute;
+  top: 24px;
+  left: 407px;
+  width: 120px;
+  height: 52px;
+}
+
+.tela-estoque-ver .boto-limpar-excluir-2 {
+  width: 30px;
+  height: 36px;
+  gap: 18.94px;
+  padding: 7.58px 5.68px;
+  position: absolute;
+  top: 1px;
+  left: 4px;
+  border-radius: 5.68px;
+  display: flex;
+  align-items: center;
+  background-color: var(--tokens-windows-icons-home-estoque-listas);
+}
+
+.tela-estoque-ver .vector-11 {
+  position: relative;
+  width: 20.84px;
+  height: 22.89px;
+  margin-top: -1.03px;
+  margin-bottom: -1.03px;
+  margin-left: -1.18px;
+  margin-right: -0.71px;
+}
+
+.tela-estoque-ver .text-wrapper-15 {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 43px;
+  height: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 400;
+  color: var(--tokens-windows-icons-texto-window-home-estoque-listas);
+  font-size: 11px;
+  letter-spacing: 0.44px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.tela-estoque-ver .boto-edtar-2 {
+  width: 30px;
+  height: 36px;
+  gap: 18.94px;
+  padding: 5.68px;
+  position: absolute;
+  top: 0;
+  left: 79px;
+  border-radius: 5.68px;
+  display: flex;
+  align-items: center;
+  background-color: var(--tokens-home-icons-window-home-estoque);
+}
+
+.tela-estoque-ver .vector-12 {
+  position: relative;
+  width: 21.31px;
+  height: 26.99px;
+  margin-top: -1.18px;
+  margin-bottom: -1.18px;
+  margin-left: -1.18px;
+  margin-right: -1.18px;
+}
+
+.tela-estoque-ver .text-wrapper-16 {
+  position: absolute;
+  top: 40px;
+  left: 79px;
+  width: 38px;
+  height: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 400;
+  color: var(--tokens-windows-icons-texto-window-home-estoque-listas);
+  font-size: 11px;
+  letter-spacing: 0.44px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.tela-estoque-ver .barra-superior-ol {
+  position: absolute;
+  top: -3px;
+  left: 0;
+  width: 598px;
+  height: 122px;
+}
+
+.tela-estoque-ver .rectangle-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 596px;
+  height: 121px;
+  background-color: var(--tokens-base-background-prim-ria);
+}
+
+.tela-estoque-ver .jialist-PC {
+  position: absolute;
+  top: 41px;
+  left: 480px;
+  width: 97px;
+  height: 81px;
+  aspect-ratio: 1.19;
+}
+
+.tela-estoque-ver .foto-perfil {
+  position: absolute;
+  top: 52px;
+  left: 30px;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  background-image: url(./img/ellipse-3.svg);
+  background-size: 100% 100%;
+}
+
+.tela-estoque-ver .lucide-user-round {
+  margin-top: 11px;
+  width: 33px;
+  height: 33px;
+  margin-left: 11px;
+  position: relative;
+}
+
+.tela-estoque-ver .vector-13 {
+  position: absolute;
+  width: 66.67%;
+  height: 75.00%;
+  top: 10.61%;
+  left: 14.77%;
+}
+
+.tela-estoque-ver .text-wrapper-17 {
+  position: absolute;
+  top: 62px;
+  left: 100px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 700;
+  color: var(--tokens-base-texto-icons-input-window);
+  font-size: 26px;
+  letter-spacing: 1.04px;
+  line-height: normal;
+}
+
+.tela-estoque-ver .window-ver-item {
+  position: absolute;
+  top: 406px;
+  left: 52px;
+  width: 491px;
+  height: 344px;
+  background-color: var(--primary-verde-verde-menta);
+  border-radius: 26.3px;
+  overflow: hidden;
+}
+
+.tela-estoque-ver .contador-6 {
+  position: absolute;
+  top: 239px;
+  left: 324px;
+  width: 49px;
+  height: 39px;
+}
+
+.tela-estoque-ver .rectangle-3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 47px;
+  height: 39px;
+  background-color: var(--tokens-home-background-icons-home);
+  border-radius: 17.88px;
+}
+
+.tela-estoque-ver .text-wrapper-18 {
+  top: 8px;
+  left: 13px;
+  width: 29px;
+  height: 23px;
+  font-size: 16.6px;
+  letter-spacing: 0.66px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 600;
+  color: var(--tokens-home-texto-titulos-windows-home);
+  line-height: normal;
+}
+
+.tela-estoque-ver .situao {
+  position: absolute;
+  top: 182px;
+  left: 258px;
+  width: 180px;
+  height: 33px;
+}
+
+.tela-estoque-ver .rectangle-4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 178px;
+  height: 33px;
+  background-color: var(--tokens-windows-icons-texto-window-home-estoque-listas);
+  border-radius: 15.78px;
+}
+
+.tela-estoque-ver .text-wrapper-19 {
+  position: absolute;
+  top: 6px;
+  left: 45px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 600;
+  color: var(--tokens-windows-icons-home-estoque-listas);
+  font-size: 14.7px;
+  letter-spacing: 0.59px;
+  line-height: normal;
+}
+
+.tela-estoque-ver .comprado {
+  position: absolute;
+  top: 6px;
+  left: 15px;
+  width: 20px;
+  height: 22px;
+}
+
+.tela-estoque-ver .vector-14 {
+  position: absolute;
+  width: 77.81%;
+  height: 71.33%;
+  top: 6.54%;
+  left: 0;
+}
+
+.tela-estoque-ver .categoria {
+  position: absolute;
+  top: 125px;
+  left: 258px;
+  width: 180px;
+  height: 33px;
+}
+
+.tela-estoque-ver .lucide-chart-bar {
+  position: absolute;
+  top: 7px;
+  left: 14px;
+  width: 19px;
+  height: 19px;
+}
+
+.tela-estoque-ver .vector-15 {
+  position: absolute;
+  width: 75.00%;
+  height: 75.00%;
+  top: 9.03%;
+  left: 9.03%;
+}
+
+.tela-estoque-ver .produto-4 {
+  position: absolute;
+  top: 68px;
+  left: 258px;
+  width: 180px;
+  height: 33px;
+}
+
+.tela-estoque-ver .text-wrapper-20 {
+  position: absolute;
+  top: 5px;
+  left: 45px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 600;
+  color: var(--tokens-windows-icons-home-estoque-listas);
+  font-size: 14.7px;
+  letter-spacing: 0.59px;
+  line-height: normal;
+}
+
+.tela-estoque-ver .lucide-shopping-bag {
+  position: absolute;
+  top: 6px;
+  left: 14px;
+  width: 19px;
+  height: 19px;
+}
+
+.tela-estoque-ver .vector-16 {
+  position: absolute;
+  width: 71.29%;
+  height: 79.22%;
+  top: 4.62%;
+  left: 8.58%;
+}
+
+.tela-estoque-ver .imagem-categoria {
+  position: absolute;
+  top: 63px;
+  left: 45px;
+  width: 155px;
+  height: 155px;
+}
+
+.tela-estoque-ver .botes-5 {
+  position: absolute;
+  top: 1px;
+  left: 23px;
+  width: 260px;
+  height: 333px;
+}
+
+.tela-estoque-ver .text-wrapper-21 {
+  position: absolute;
+  top: 20px;
+  left: 259px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 700;
+  color: var(--tokens-windows-texto-titulos-icon-window-estoque-listas);
+  font-size: 18.9px;
+  letter-spacing: 0.76px;
+  line-height: normal;
+}
+
+.tela-estoque-ver .barra-de-opes {
+  position: absolute;
+  top: 1192px;
+  left: 0;
+  width: 584px;
+  height: 100px;
+}

@@ -1,0 +1,349 @@
+.mobile-JC-tela {
+  background-color: var(--tokens-base-background-window-prim-ria);
+  width: 100%;
+  min-width: 596px;
+  min-height: 1292px;
+  position: relative;
+}
+
+.mobile-JC-tela .barra-de-opes {
+  position: absolute;
+  top: 1184px;
+  left: 9px;
+  width: 587px;
+  height: 108px;
+}
+
+.mobile-JC-tela .union {
+  position: absolute;
+  top: 205px;
+  left: 26px;
+  width: 543px;
+  height: 939px;
+}
+
+.mobile-JC-tela .opes-perfil {
+  position: absolute;
+  top: 393px;
+  left: 58px;
+  width: 475px;
+  height: 724px;
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-JC-tela .boto-voltar {
+  width: 54.68px;
+  height: 54.68px;
+  gap: 13.12px;
+  padding: 2.62px;
+  transform: rotate(-90.00deg);
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.mobile-JC-tela .vector {
+  position: relative;
+  width: 42px;
+  height: 42px;
+  margin-left: -1.14px;
+  transform: rotate(90.00deg);
+}
+
+.mobile-JC-tela .conta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 182.6px;
+  width: 159.78px;
+  height: 50.36px;
+  margin-top: 33.1px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 700;
+  color: var(--primary-verde-verde-p-lido);
+  font-size: 25.1px;
+  letter-spacing: 1.00px;
+  line-height: normal;
+}
+
+.mobile-JC-tela .usurio {
+  margin-left: 35px;
+  width: 410px;
+  height: 65px;
+  margin-top: 50.9px;
+  display: flex;
+  gap: 40px;
+  background-color: #f5f5f5;
+  border-radius: 50px;
+}
+
+.mobile-JC-tela .lucide-circle-user {
+  margin-top: 13px;
+  width: 43px;
+  height: 44px;
+  position: relative;
+  margin-left: 32px;
+}
+
+.mobile-JC-tela .img {
+  position: absolute;
+  width: 74.62%;
+  height: 74.62%;
+  top: 5.07%;
+  left: 5.01%;
+}
+
+.mobile-JC-tela .text-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 14.5px;
+  width: 152.58px;
+  height: 34px;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 600;
+  color: var(--tokens-home-texto-icons-home-perfil);
+  font-size: 25px;
+  letter-spacing: 1.00px;
+  line-height: normal;
+}
+
+.mobile-JC-tela .e-mail {
+  margin-left: 35px;
+  width: 410px;
+  height: 65px;
+  margin-top: 48px;
+  display: flex;
+  gap: 38.6px;
+  background-color: #f5f5f5;
+  border-radius: 50px;
+}
+
+.mobile-JC-tela .lucide-mail {
+  margin-top: 15.5px;
+  width: 40.66px;
+  height: 36.96px;
+  position: relative;
+  margin-left: 32px;
+}
+
+.mobile-JC-tela .vector-2 {
+  position: absolute;
+  width: 76.24%;
+  height: 59.52%;
+  top: 14.88%;
+  left: 4.92%;
+}
+
+.mobile-JC-tela .div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16.5px;
+  width: 127.53px;
+  height: 34px;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 600;
+  color: var(--tokens-home-texto-icons-home-perfil);
+  font-size: 25px;
+  letter-spacing: 1.00px;
+  line-height: normal;
+}
+
+.mobile-JC-tela .senha {
+  margin-left: 35px;
+  width: 410px;
+  height: 65px;
+  margin-top: 48px;
+  display: flex;
+  gap: 44px;
+  background-color: #f5f5f5;
+  border-radius: 50px;
+}
+
+.mobile-JC-tela .lucide-lock-keyhole {
+  margin-top: 13px;
+  width: 37px;
+  height: 39px;
+  position: relative;
+  margin-left: 32px;
+}
+
+.mobile-JC-tela .vector-3 {
+  position: absolute;
+  width: 75.00%;
+  height: 83.33%;
+  top: 5.77%;
+  left: 9.80%;
+}
+
+.mobile-JC-tela .text-wrapper-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  width: 90px;
+  height: 34px;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 600;
+  color: var(--tokens-home-texto-icons-home-perfil);
+  font-size: 25px;
+  letter-spacing: 1.00px;
+  line-height: normal;
+}
+
+.mobile-JC-tela .text-wrapper-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 303px;
+  width: 168.46px;
+  height: 34.73px;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 600;
+  color: var(--primary-base-branco);
+  font-size: 20px;
+  letter-spacing: 0.80px;
+  line-height: normal;
+}
+
+.mobile-JC-tela .boto-gerenciar-conta {
+  display: flex;
+  margin-left: 5.5px;
+  height: 59px;
+  width: 409px;
+  align-self: center;
+  position: relative;
+  margin-top: 54.3px;
+  align-items: center;
+  justify-content: space-around;
+  gap: 13px;
+  padding: 10px 0px 10px 81px;
+  background-color: var(--primary-verde-verde-menta);
+  border-radius: 50px;
+}
+
+.mobile-JC-tela .text-wrapper-4 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 256px;
+  margin-top: -0.50px;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 700;
+  color: var(--tokens-home-texto-titulos-windows-home);
+  font-size: 27.7px;
+  letter-spacing: 1.11px;
+  line-height: normal;
+}
+
+.mobile-JC-tela .boto-home {
+  margin-left: 7px;
+  width: 53.84px;
+  height: 53.84px;
+  margin-top: 42px;
+  gap: 10px;
+  padding: 5px 3px;
+  background-color: var(--primary-base-branco);
+  border-radius: 8px;
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.mobile-JC-tela .lucide-house {
+  position: relative;
+  width: 56px;
+  height: 56px;
+  margin-top: -6.08px;
+  margin-bottom: -6.08px;
+  margin-right: -8.16px;
+}
+
+.mobile-JC-tela .vector-4 {
+  position: absolute;
+  width: 54.27%;
+  height: 57.29%;
+  top: 18.56%;
+  left: 13.06%;
+}
+
+.mobile-JC-tela .perfil {
+  position: absolute;
+  top: 55px;
+  left: 146px;
+  width: 350px;
+  height: 474px;
+}
+
+.mobile-JC-tela .foto-perfil {
+  position: absolute;
+  top: 170px;
+  left: 0;
+  width: 304px;
+  height: 304px;
+  background-color: var(--primary-verde-verde-p-lido);
+  border-radius: 200px;
+}
+
+.mobile-JC-tela .lucide-user-round {
+  position: absolute;
+  top: 203px;
+  left: 32px;
+  width: 237px;
+  height: 237px;
+}
+
+.mobile-JC-tela .vector-5 {
+  position: absolute;
+  width: 66.67%;
+  height: 75.00%;
+  top: 11.66%;
+  left: 15.82%;
+}
+
+.mobile-JC-tela .perfil-2 {
+  position: absolute;
+  top: 0;
+  left: 84px;
+  width: 264px;
+  height: 105px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", Helvetica;
+  font-weight: 700;
+  color: var(--tokens-base-texto-window-segunda);
+  font-size: 50px;
+  letter-spacing: 2.00px;
+  line-height: normal;
+}
+
+.mobile-JC-tela .JL-folha {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 226px;
+  height: 280px;
+  aspect-ratio: 1.04;
+}
+
+.mobile-JC-tela .JL-folha-2 {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  width: 271px;
+  height: 138px;
+  aspect-ratio: 1.04;
+}
+
+.mobile-JC-tela .jialist-PC {
+  position: absolute;
+  top: 41px;
+  left: 480px;
+  width: 97px;
+  height: 81px;
+  aspect-ratio: 1.19;
+}
