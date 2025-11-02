@@ -1,3 +1,14 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100%;
+  width: 100%;
+}
+
 .JL-PC-tela-cadastro {
   background-color: var(--tokens-base-background-prim-ria);
   width: 100%;
@@ -36,34 +47,24 @@
   white-space: nowrap;
 }
 
-.JL-PC-tela-cadastro .input-e-mail {
+.JL-PC-tela-cadastro .input-e-mail input {
   margin-left: 109px;
   width: 363px;
   height: 53px;
   margin-top: 47px;
   display: flex;
   gap: 21px;
-  background-color: var(--tokens-base-background-caixa-input);
   border-radius: 50px;
+  border: none;
+  padding-left: 69px;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 400;
+  color: var(--tokens-base-texto-input-sele-o);
+  font-size: 16px;
+  letter-spacing: 0.64px;
 }
 
-.JL-PC-tela-cadastro .lucide-mail {
-  margin-top: 17px;
-  width: 22px;
-  height: 20px;
-  position: relative;
-  margin-left: 23px;
-}
-
-.JL-PC-tela-cadastro .vector {
-  position: absolute;
-  width: 83.33%;
-  height: 66.67%;
-  top: 12.92%;
-  left: 4.92%;
-}
-
-.JL-PC-tela-cadastro .div {
+.JL-PC-tela-cadastro .input-e-mail input::placeholder{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -79,34 +80,47 @@
   line-height: normal;
 }
 
-.JL-PC-tela-cadastro .input-usuario {
+.JL-PC-tela-cadastro .input-e-mail input:focus, input:active{
+  outline: none;
+}
+
+.JL-PC-tela-cadastro .lucide-mail {
+  border: none;
+  margin-top: 17px;
+  width: 23px;
+  height: 23px;
+  position: absolute;
+  margin-left: 136px;
+}
+
+.JL-PC-tela-cadastro .vector{
+  position: absolute;
+  width: 83.33%;
+  height: 66.67%;
+  top: 12.92%;
+  left: 4.92%;
+}
+
+.JL-PC-tela-cadastro .input-usuario input{
   margin-left: 109px;
   width: 363px;
   height: 53px;
   margin-top: 31px;
   display: flex;
   gap: 22px;
-  background-color: var(--tokens-base-background-caixa-input);
   border-radius: 50px;
+  padding-left: 69px;
+  border: none;
+  align-self: center;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 400;
+  color: var(--tokens-base-texto-input-sele-o);
+  font-size: 16px;
+  letter-spacing: 0.64px;
+  line-height: normal;
 }
 
-.JL-PC-tela-cadastro .lucide-user-round {
-  margin-top: 15px;
-  width: 21px;
-  height: 21px;
-  position: relative;
-  margin-left: 25px;
-}
-
-.JL-PC-tela-cadastro .img {
-  position: absolute;
-  width: 66.67%;
-  height: 75.00%;
-  top: 8.93%;
-  left: 13.10%;
-}
-
-.JL-PC-tela-cadastro .text-wrapper-2 {
+.JL-PC-tela-cadastro .input-usuario input::placeholder{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -122,66 +136,48 @@
   line-height: normal;
 }
 
-.JL-PC-tela-cadastro .div-2 {
+.JL-PC-tela-cadastro .input-usuario input:focus, input:active{
+  outline: none;
+}
+
+.JL-PC-tela-cadastro .lucide-user-round {
+  margin-top: 17px;
+  width: 23px;
+  height: 23px;
+  position: absolute;
+  margin-left: 136px;
+}
+
+.JL-PC-tela-cadastro .img {
+  position: absolute;
+  width: 66.67%;
+  height: 75.00%;
+  top: 8.93%;
+  left: 13.10%;
+}
+
+.JL-PC-tela-cadastro .div-2 input{
   margin-left: 109px;
   width: 363px;
   height: 53px;
   margin-top: 26px;
   display: flex;
-  background-color: var(--tokens-base-background-caixa-input);
   border-radius: 50px;
-}
-
-.JL-PC-tela-cadastro .lucide-lock-keyhole {
-  margin-top: 15px;
-  width: 21px;
-  height: 22px;
-  position: relative;
-  margin-left: 25px;
-}
-
-.JL-PC-tela-cadastro .vector-2 {
-  position: absolute;
-  width: 75.00%;
-  height: 83.33%;
-  top: 4.92%;
-  left: 8.93%;
-}
-
-.JL-PC-tela-cadastro .text-wrapper-3 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: -1px;
-  height: 22px;
-  width: 49px;
-  align-self: center;
-  margin-left: 22px;
+  border: none;
   font-family: "Open Sans", Helvetica;
   font-weight: 400;
   color: var(--tokens-base-texto-input-sele-o);
   font-size: 16px;
   letter-spacing: 0.64px;
   line-height: normal;
+  padding-left: 69px;
 }
 
-.JL-PC-tela-cadastro .lucide-eye {
-  margin-top: 15px;
-  width: 24px;
-  height: 24px;
-  position: relative;
-  margin-left: 196px;
+.JL-PC-tela-cadastro .div-2 input:focus, input:active{
+  outline: none;
 }
 
-.JL-PC-tela-cadastro .vector-3 {
-  position: absolute;
-  width: 83.34%;
-  height: 58.33%;
-  top: 16.67%;
-  left: 4.16%;
-}
-
-.JL-PC-tela-cadastro .text-wrapper-4 {
+.JL-PC-tela-cadastro .div-2 input::placeholder{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -196,25 +192,26 @@
   font-size: 16px;
   letter-spacing: 0.64px;
   line-height: normal;
+  
 }
 
-.JL-PC-tela-cadastro .lucide-eye-closed {
-  margin-top: 14px;
-  width: 24px;
-  height: 24px;
-  position: relative;
-  margin-left: 110px;
-}
-
-.JL-PC-tela-cadastro .vector-4 {
+.JL-PC-tela-cadastro .lucide-lock-keyhole {
+  margin-top: 15px;
+  width: 23px;
+  height: 23px;
   position: absolute;
-  width: 83.33%;
-  height: 41.67%;
-  top: 29.17%;
-  left: 4.16%;
+  margin-left: 136px;
 }
 
-.JL-PC-tela-cadastro .boto-login {
+.JL-PC-tela-cadastro .vector-2 {
+  position: absolute;
+  width: 75.00%;
+  height: 83.33%;
+  top: 4.92%;
+  left: 8.93%;
+}
+
+.JL-PC-tela-cadastro .boto-login button{
   display: flex;
   margin-left: 109px;
   width: 363px;
@@ -227,6 +224,14 @@
   padding: 10px;
   background-color: #6ab472;
   border-radius: 50px;
+  border: none;
+  transition: 0.7s ease;
+}
+
+.JL-PC-tela-cadastro .boto-login button:hover{
+  transform: translateY(-10px);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: #3c8250;
 }
 
 .JL-PC-tela-cadastro .login {
@@ -248,6 +253,11 @@
   height: 67px;
   margin-top: 17px;
   aspect-ratio: 1.19;
+  transition: 0.6s ease-in-out;
+}
+
+.JL-PC-tela-cadastro .jialist-logo:hover{
+  transform: scale(1.5);
 }
 
 .JL-PC-tela-cadastro .JL-planta {
@@ -265,6 +275,11 @@
   left: 850px;
   width: 418px;
   height: 146px;
+  transition: 0.5s ease-in-out;
+}
+
+.JL-PC-tela-cadastro .mensagem:hover{
+  transform: translateY(-10px);
 }
 
 .JL-PC-tela-cadastro .line {
@@ -281,7 +296,7 @@
   left: 40px;
   width: 376px;
   height: 130px;
-  background-color: #a1f1aa57;
+  background-color:   #a1f1aa57;
   border-radius: 30px;
 }
 
@@ -302,15 +317,6 @@
   line-height: normal;
 }
 
-.JL-PC-tela-cadastro .span {
-  font-weight: 700;
-  letter-spacing: 0.29px;
-}
-
-.JL-PC-tela-cadastro .text-wrapper-5 {
-  letter-spacing: 0.29px;
-}
-
 .JL-PC-tela-cadastro .boas-vindas {
   position: absolute;
   top: 212px;
@@ -319,7 +325,13 @@
   height: 175px;
   display: flex;
   flex-direction: column;
+  transition: 0.7s ease;
 }
+
+.JL-PC-tela-cadastro .boas-vindas:hover{
+  transform: translateX(-10px);
+}
+
 
 .JL-PC-tela-cadastro .text-wrapper-6 {
   display: flex;
@@ -351,10 +363,33 @@
 }
 
 .JL-PC-tela-cadastro .JL-folha {
+  transform-origin: top right;
   position: absolute;
-  top: 0;
+  top: -4px;
   left: 894px;
   width: 416px;
   height: 320px;
   aspect-ratio: 1.04;
+  animation: 
+    balanco-rotacao 4s ease-in-out infinite,
+    balanco-movimento 5.5s ease-in-out infinite;
+}
+
+@keyframes balanco-rotacao {
+  0% { transform: rotate(0deg); }
+  30% { transform: rotate(6deg); }
+  60% { transform: rotate(-1.5deg); }
+  100% { transform: rotate(0deg); }
+}
+
+@keyframes balanco-movimento {
+  0% { 
+    transform: translate(0, 0) rotate(0deg); 
+  }
+  50% { 
+    transform: translate(-5px, 3px) rotate(1.5deg); 
+  }
+  100% { 
+    transform: translate(0, 0) rotate(0deg); 
+  }
 }
