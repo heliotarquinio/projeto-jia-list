@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
   height: 100vh;
   width: 100vw;
@@ -7,6 +8,11 @@ body{
   background-color: var(--tokens-base-background-prim-ria);
   width: 100%;
   height: 100%;
+=======
+.JL-PC-tela-home {
+  background-color: var(--tokens-base-background-prim-ria);
+  width: 100%;
+>>>>>>> dd90d99 (estoque atualizada)
   min-width: 1310px;
   min-height: 799px;
   position: relative;
@@ -147,7 +153,11 @@ body{
   gap: 24px;
 }
 
+<<<<<<< HEAD
 .JL-PC-tela-home .conta button{
+=======
+.JL-PC-tela-home .conta {
+>>>>>>> dd90d99 (estoque atualizada)
   display: flex;
   width: 130px;
   height: 41px;
@@ -157,6 +167,7 @@ body{
   padding: 10px 46px 10px 13px;
   background-color: #f5f5f5;
   border-radius: 18px;
+<<<<<<< HEAD
   gap: 8px;
   padding: 10px 43px;
   border: none;
@@ -165,6 +176,8 @@ body{
 
 .JL-PC-tela-home .conta button:hover{
   transform: translateX(-8px);
+=======
+>>>>>>> dd90d99 (estoque atualizada)
 }
 
 .JL-PC-tela-home .vector-wrapper {
@@ -175,10 +188,17 @@ body{
 
 .JL-PC-tela-home .img {
   position: absolute;
+<<<<<<< HEAD
   width: 15%;
   height: 83.33%;
   top: 5.21%;
   left: 12%;
+=======
+  width: 83.33%;
+  height: 83.33%;
+  top: 5.21%;
+  left: 5.21%;
+>>>>>>> dd90d99 (estoque atualizada)
 }
 
 .JL-PC-tela-home .text-wrapper-2 {
@@ -195,7 +215,11 @@ body{
   line-height: normal;
 }
 
+<<<<<<< HEAD
 .JL-PC-tela-home .listas button{
+=======
+.JL-PC-tela-home .listas {
+>>>>>>> dd90d99 (estoque atualizada)
   display: flex;
   width: 130px;
   height: 41px;
@@ -205,6 +229,7 @@ body{
   padding: 10px 45px 10px 13px;
   background-color: #f5f5f5;
   border-radius: 18px;
+<<<<<<< HEAD
   padding: 10px 43px;
   border: none;
   transition: 0.4s ease;
@@ -212,10 +237,13 @@ body{
 
 .JL-PC-tela-home .listas button:hover{
   transform: translateX(-8px);
+=======
+>>>>>>> dd90d99 (estoque atualizada)
 }
 
 .JL-PC-tela-home .vector-2 {
   position: absolute;
+<<<<<<< HEAD
   width: 14%;
   height: 83.33%;
   top: 5.21%;
@@ -224,6 +252,15 @@ body{
 
 
 .JL-PC-tela-home .estoque button{
+=======
+  width: 66.67%;
+  height: 83.33%;
+  top: 5.21%;
+  left: 13.54%;
+}
+
+.JL-PC-tela-home .estoque {
+>>>>>>> dd90d99 (estoque atualizada)
   display: flex;
   width: 130px;
   height: 41px;
@@ -233,6 +270,7 @@ body{
   padding: 8px 31px 8px 13px;
   background-color: #f5f5f5;
   border-radius: 18px;
+<<<<<<< HEAD
   padding: 10px 43px;
   border: none;
   transition: 0.4s ease;
@@ -240,14 +278,23 @@ body{
 
 .JL-PC-tela-home .estoque button:hover{
   transform: translateX(-8px);
+=======
+>>>>>>> dd90d99 (estoque atualizada)
 }
 
 .JL-PC-tela-home .vector-3 {
   position: absolute;
+<<<<<<< HEAD
   width: 14%;
   height: 75.00%;
   top: 9.38%;
   left: 12%;
+=======
+  width: 83.33%;
+  height: 75.00%;
+  top: 9.38%;
+  left: 5.21%;
+>>>>>>> dd90d99 (estoque atualizada)
 }
 
 .JL-PC-tela-home .text-wrapper-3 {
@@ -1112,6 +1159,7 @@ body{
   border-radius: 14.02px;
 }
 
+<<<<<<< HEAD
 .JL-PC-tela-home .barra-pesquisa input{
   position: absolute;
   top: 81px;
@@ -1146,16 +1194,33 @@ body{
 }
 
 .JL-PC-tela-home .lupa button{
+=======
+.JL-PC-tela-home .barra-pesquisa {
+  position: absolute;
+  top: 81px;
+  left: 110px;
+  width: 514px;
+  height: 53px;
+  display: flex;
+  background-color: var(--tokens-home-background-icons-home);
+  border-radius: 50px;
+}
+
+.JL-PC-tela-home .lupa {
+>>>>>>> dd90d99 (estoque atualizada)
   width: 53px;
   height: 53px;
   margin-left: -109px;
   display: flex;
   background-color: var(--tokens-home-icons-windows-home);
   border-radius: 26.5px;
+<<<<<<< HEAD
   position: absolute;
   left: 115px;
   top: 80px;
   border: none;
+=======
+>>>>>>> dd90d99 (estoque atualizada)
 }
 
 .JL-PC-tela-home .lucide-search {
@@ -1163,11 +1228,16 @@ body{
   width: 35px;
   height: 35px;
   margin-left: 9px;
+<<<<<<< HEAD
   position: absolute;
+=======
+  position: relative;
+>>>>>>> dd90d99 (estoque atualizada)
 }
 
 .JL-PC-tela-home .vector-15 {
   position: absolute;
+<<<<<<< HEAD
   width: 60.00%;
   height: 60.00%;
   top: 20%;
@@ -1175,6 +1245,15 @@ body{
 }
 
 .JL-PC-tela-home .buscar{
+=======
+  width: 75.00%;
+  height: 75.00%;
+  top: 9.64%;
+  left: 9.64%;
+}
+
+.JL-PC-tela-home .buscar {
+>>>>>>> dd90d99 (estoque atualizada)
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1191,7 +1270,11 @@ body{
   line-height: normal;
 }
 
+<<<<<<< HEAD
 .JL-PC-tela-home .filtar button{
+=======
+.JL-PC-tela-home .filtar {
+>>>>>>> dd90d99 (estoque atualizada)
   margin-top: -1px;
   width: 55px;
   height: 55px;
@@ -1199,10 +1282,13 @@ body{
   display: flex;
   background-color: var(--tokens-home-background-icons-home);
   border-radius: 27.5px;
+<<<<<<< HEAD
   position: absolute;
   left: 375px;
   top: 78px;
   border: none;
+=======
+>>>>>>> dd90d99 (estoque atualizada)
 }
 
 .JL-PC-tela-home .lucide-text-align {
@@ -1215,20 +1301,32 @@ body{
 
 .JL-PC-tela-home .vector-16 {
   position: absolute;
+<<<<<<< HEAD
   width: 50.00%;
   height: 50.33%;
   top: 24%;
   left: 26%;
+=======
+  width: 75.00%;
+  height: 58.33%;
+  top: 17.80%;
+  left: 9.47%;
+>>>>>>> dd90d99 (estoque atualizada)
 }
 
 .JL-PC-tela-home .duvidas {
   margin-top: 4.1px;
   width: 41px;
   height: 41.93px;
+<<<<<<< HEAD
   position: absolute;
   margin-left: 32px;
   left: 680px;
   top: 78px;
+=======
+  position: relative;
+  margin-left: 32px;
+>>>>>>> dd90d99 (estoque atualizada)
 }
 
 .JL-PC-tela-home .ellipse {
@@ -1285,14 +1383,20 @@ body{
 .JL-PC-tela-home .barra-de-opes {
   position: absolute;
   width: 137px;
+<<<<<<< HEAD
   height: 485px;
   top: 289px;
+=======
+  height: 471px;
+  top: 303px;
+>>>>>>> dd90d99 (estoque atualizada)
   left: 25px;
   display: flex;
   flex-direction: column;
 }
 
 .JL-PC-tela-home .boto-conta {
+<<<<<<< HEAD
   transition: .5s ease;
 }
 
@@ -1301,22 +1405,31 @@ body{
 }
 
 .JL-PC-tela-home .boto-conta button{
+=======
+>>>>>>> dd90d99 (estoque atualizada)
   margin-left: 10px;
   width: 106px;
   display: flex;
   gap: 15px;
+<<<<<<< HEAD
   background-color: var(--primary-verde-verde-vivo);
   margin-left: 29px;
   border: none;
+=======
+>>>>>>> dd90d99 (estoque atualizada)
 }
 
 .JL-PC-tela-home .lucide-user-round-2 {
   margin-top: 1px;
   width: 24px;
   height: 24px;
+<<<<<<< HEAD
   position: absolute;
   margin-left: 14px;
   margin-top: 5px;
+=======
+  position: relative;
+>>>>>>> dd90d99 (estoque atualizada)
 }
 
 .JL-PC-tela-home .vector-18 {
@@ -1341,6 +1454,7 @@ body{
   line-height: normal;
 }
 
+<<<<<<< HEAD
 .JL-PC-tela-home .boto-listas{
   transition: .5s ease;
 }
@@ -1350,23 +1464,33 @@ body{
 }
 
 .JL-PC-tela-home .boto-listas button{
+=======
+.JL-PC-tela-home .boto-listas {
+>>>>>>> dd90d99 (estoque atualizada)
   margin-left: 10px;
   width: 105px;
   margin-top: 43px;
   display: flex;
   gap: 14px;
+<<<<<<< HEAD
   background-color: var(--primary-verde-verde-vivo);
   margin-left: 29px;
   border: none;
+=======
+>>>>>>> dd90d99 (estoque atualizada)
 }
 
 .JL-PC-tela-home .lucide-notepad-text {
   margin-top: 2px;
   width: 25px;
   height: 25px;
+<<<<<<< HEAD
   position: absolute;
   margin-left: 12px;
   margin-top: 45px;
+=======
+  position: relative;
+>>>>>>> dd90d99 (estoque atualizada)
 }
 
 .JL-PC-tela-home .vector-19 {
@@ -1391,6 +1515,7 @@ body{
   line-height: normal;
 }
 
+<<<<<<< HEAD
 .JL-PC-tela-home .boto-estoque{
   transition: .5s ease;
 }
@@ -1400,23 +1525,33 @@ body{
 }
 
 .JL-PC-tela-home .boto-estoque button{
+=======
+.JL-PC-tela-home .boto-estoque {
+>>>>>>> dd90d99 (estoque atualizada)
   margin-left: 11px;
   width: 128px;
   margin-top: 47px;
   display: flex;
   gap: 13px;
+<<<<<<< HEAD
   background-color: var(--primary-verde-verde-vivo);
   margin-left: 29px;
   border: none;
+=======
+>>>>>>> dd90d99 (estoque atualizada)
 }
 
 .JL-PC-tela-home .lucide-archive {
   margin-top: 2px;
   width: 25px;
   height: 24px;
+<<<<<<< HEAD
   position: absolute;
   margin-left: 9px;
   margin-top: 50px;
+=======
+  position: relative;
+>>>>>>> dd90d99 (estoque atualizada)
 }
 
 .JL-PC-tela-home .vector-20 {
